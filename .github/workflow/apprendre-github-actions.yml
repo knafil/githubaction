@@ -1,9 +1,9 @@
 name: apprendre-github-actions
-run-name: ${{ github.actor }} est toujours en train d’apprendre GitHub Actions
+run-name: ${{ github.actor }} est toujours en train d’apprendre GitHub Actions vu les problèmes rencontrés
 on: [push]
 jobs:
   check-bats-version:
-    runs-on: macos-latest
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
